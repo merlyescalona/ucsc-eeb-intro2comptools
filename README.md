@@ -1,6 +1,8 @@
-# Workshop on basic programming skills for biologists / Introduction to computational tool
+# Workshop on basic programming skills for biologists / Introduction to computational tools
 
-The aim of the workshop is to provide the attendants with the jump-start skills necessary to begin using the command line, supercomputers, and the python programing language. We will meet weekly for one hour and 20 min.
+The aim of the workshop is to provide the attendants with the jump-start skills necessary to begin using the command line, supercomputers, and the python programing language. 
+
+We will meet weekly for one hour and 20 min.
 
 ## What to expect:
 At the end of the course participants will be comfortable using the bash environment, submitting jobs to the hummingbird supercomputer, and writing basic python scripts.
