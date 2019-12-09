@@ -22,9 +22,11 @@ At the end of the course participants will be comfortable using the bash environ
 
 # Instructors:
 
-Merly Escalona <mmescalo@ucsc.edu>
+Merly Escalona (<mmescalo@ucsc.edu>)
+
 Postdoctoral Scholar in the [Green/Shapiro lab](https://pgl.soe.ucsc.edu), experience with bioinformatics, simulation of genomic and high throughput sequencing data, and genome assembly.
 
 
-Oscar Vargas <ovargash@ucsc.edu> 
+Oscar Vargas (<ovargash@ucsc.edu>)
+
 Postdoctoral Scholar in the Kay lab, experience with bioinformatics and phylogenomics.
