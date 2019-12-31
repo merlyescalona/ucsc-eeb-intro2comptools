@@ -1,4 +1,7 @@
 ## Week one
+
+# Before class
+
 You should have access to the linux environment, running virtual box if you have a windows machine or native in your mac.
 
 **Open terminal**
@@ -17,7 +20,9 @@ pwd= print working directory, now we know our location in the computer
 pwd
 ```
 
-We can list the contents of the directory we are in by typing
+The default location after you have open terminal is your `home` directory 
+
+We can list the contents of the directory by typing
 
 ```
 ls
