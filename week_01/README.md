@@ -235,8 +235,22 @@ List only files that contain the string "002":
 ls *002*
 ```
 
+### removing files
+
+With great power comes great resposability! Files removed throught the terminal are gone forever, they DON't go to a trash bin from where they can be reinstated. You can remove a file just by typing:
+
+```
+rm personal_log_002.r
+```
+
+You can remove all the ".txt" files:
+
+```
+rm *.txt
+```
 
 
+***CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
 
 
