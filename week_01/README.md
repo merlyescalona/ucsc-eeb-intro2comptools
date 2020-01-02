@@ -20,7 +20,7 @@ Now that you have open terminal you will see a black screen waiting for commands
 
 pwd= print working directory, now we know our location in the computer
 
-> Change your flag to Yellow
+> Change your flag to yellow
 
 ```
 pwd
@@ -57,7 +57,7 @@ ls -la
 You can find about all the options a command has by typing
 
 ```
-info ls
+man ls
 ```
 
 Stuck in the window? You can scroll with the spacebar and/or with the arrows of you keyboard. If you want to exit the informative screen just type `q`.
@@ -72,7 +72,44 @@ ls -lash
 
 > Change your flag to green if you are good to continue
 
+Now that you know to identify your working directory and list the items now we will learn how to created directories and move across directories.
 
+> Change your flag to Yellow
+
+To create a new directory labeled "week_1" type:
+
+```
+mkdir week_1
+```
+
+List the items inside your working directory and confirm the folder has been created
+
+```
+ls
+```
+
+To Change Directories into the newly created folder type:
+
+```
+cd week_01
+```
+
+you can check that you are really there by checking your Present Working Directory
+
+```
+pwd
+```
+
+You can infer from the way the command line works that spaces inside folder and file names can be problematic. For example, let's see what thappens when we try to create a folder "test 1" inside `week_1`
+
+```
+mkdir test 1
+```
+What happened?
+
+The command line interprets "test" and "1" as different argunments.
+
+***From now on avoid using spaces in file and folder names, use _ instead***
 
 
 
