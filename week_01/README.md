@@ -94,7 +94,7 @@ To Change Directories into the newly created folder type:
 cd week_01
 ```
 
-you can check that you are really there by checking your Present Working Directory
+you can check that you are really there by checking your Present Working Directory `pwd`
 
 ```
 pwd
@@ -110,6 +110,35 @@ What happened?
 The command line interprets "test" and "1" as different argunments.
 
 ***From now on avoid using spaces in file and folder names, use _ instead***
+
+We can remove both unwanted directories by typing 
+
+```
+rmdir 1 test
+```
+
+> Change your flag to green if you are good to continue
+
+
+
+
+
+
+
+
+
+
+TIPS
+
+To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing in your dedired folder is too nested in the file hierarchy.
+
+When typing file and folder names you can press the `tab` key to autocomplete a name, but notice that the letters typed have to be long enough to match only a single item.
+
+
+
+
+
+
 
 
 
