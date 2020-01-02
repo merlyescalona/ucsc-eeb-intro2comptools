@@ -130,7 +130,7 @@ rmdir 1 test
 
 TIPS
 
-To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing in your dedired folder is too nested in the file hierarchy.
+To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy.
 
 When typing file and folder names you can press the `tab` key to autocomplete a name, but notice that the letters typed have to be long enough to match only a single item.
 
