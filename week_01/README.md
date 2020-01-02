@@ -8,10 +8,10 @@ You should have access to the linux environment, running virtual box if you have
 ***Add the yellow flag to the right corner of your laptop***
 
 Also called command line, this is an application:
-Mac: applications > utilities > Terminal.app
+Mac: Applications > Utilities > Terminal.app
 Ubuntu: 
 
-You might want to add this applciation to your dock for rapid access
+You might want to add this application to your dock for rapid access.
 
 ***Change your flag to green if you are good to continue***
 
