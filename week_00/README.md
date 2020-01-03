@@ -128,7 +128,6 @@ In order to actually have a machine, we have to create one. For that, we have co
 ![](img/virtualbox_04.png)
 
 
-
 > **NOTE:** When using a VM, the software computer uses the components of the physical computer (the host/your machine) 
 to be able to run. This means, that when the VM is open it will take the resources it needs, which means
 that it will most likely descrease the performance (slow down) of your machine. While in processing
