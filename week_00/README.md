@@ -21,7 +21,9 @@ There are multiple Linux flavors. The default Unix Shell for Linux is usually Ba
 - [xterm](https://en.wikipedia.org/wiki/Xterm)
 - [tilix](https://gnunn1.github.io/tilix-web/)
 
-All of them can be found via the applications menu or the search bar. 
+All of them can be found via:
+- the Applications menu (top or bottom left) > Utilities > Terminal
+- <kbd>Super</kbd> + typing `terminal`.
 
 > **Tip:** You might want to add this application to your dock/favorites for easy access.
 
@@ -44,27 +46,27 @@ For more advanced users:
 - Download Git for Windows [here](https://git-scm.com/download/win)
 - Install Git for Windows:
     - Accept the licensing
-![](img/git_for_windows_00.png)
+![](week_00/img/git_for_windows_00.png)
     - Set up location for installation (default), click "Next".
-![](img/git_for_windows_01.png)
+![](week_00/img/git_for_windows_01.png)
     - Make sure the "Git Bash Here" option is checked, click "Next".
-![](img/git_for_windows_02.png)
+![](week_00/img/git_for_windows_02.png)
     - Add "Git" folder to the Start Menu Folder, click "Next".
-![](img/git_for_windows_03.png)
+![](week_00/img/git_for_windows_03.png)
     - Select default editor for Git related edits, click "Next".
-![](img/git_for_windows_04.png)
+![](week_00/img/git_for_windows_04.png)
     - Adjust the scope of the Unix tools included. Order from very conservative to advanced. Select, then click "Next".
-![](img/git_for_windows_05.png)
+![](week_00/img/git_for_windows_05.png)
     - Select SSL library (default), click "Next".
-![](img/git_for_windows_06.png)
+![](week_00/img/git_for_windows_06.png)
     - Select how Git will handle end of lines, click "Next".
-![](img/git_for_windows_07.png)
+![](week_00/img/git_for_windows_07.png)
     - Select terminal emulator (default), click "Next".
-![](img/git_for_windows_08.png)
+![](week_00/img/git_for_windows_08.png)
     - Enable extra features (default), click "Next"; then click "Install" in the following window.
-![](img/git_for_windows_09.png)
+![](week_00/img/git_for_windows_09.png)
     - Installation is done.
-![](img/git_for_windows_10.png)
+![](week_00/img/git_for_windows_10.png)
 
 
 - Then, in order to be able to work with this, we will have to open the "Git Bash" application. We can do that by:
@@ -83,15 +85,15 @@ In order to actually have a machine, we have to create one. For that, we have co
 
 - Open VirtualBox
 - Click the "Import appliance" button
-![](virtualbox_00.png)
+![](week_00/img/virtualbox_00.png)
 - Look for the image (*.ova fila) you just downloaded. 
-![](virtualbox_01.png)
+![](week_00/img/virtualbox_01.png)
 - Check the featured of the VM.
-![](virtualbox_02.png)
+![](week_00/img/virtualbox_02.png)
 - Wait for the appliance to load.
-![](virtualbox_03.png)
+![](week_00/img/virtualbox_03.png)
 - One it is loaded you'll have a windows like this.
-![](virtualbox_04.png)
+![](week_00/img/virtualbox_04.png)
 
 
 > **NOTE:** When using a VM, the software computer uses the components of the physical computer (the host/your machine) 
@@ -100,7 +102,7 @@ that it will most likely descrease the performance (slow down) of your machine. 
 terms the host machine will be able to handle the VM and all the other programs you'd have open, 
 but the RAM  memory won't. If the default features of the machine that we created do not allow you
 to handle both your machine and the VM, you can modify the amount of RAm byt clicking the "System" tab.
-![](virtualbox_05.png)
+![](week_00/img/virtualbox_05.png)
 
 
 To turn on the VM, you can double click on the machine that we have imported or, select the machine, right click and then "start".
@@ -142,13 +144,13 @@ In addition, the command line is often the easiest way to interact with remote m
 
 Directories are the Unix equivalent of folders on a PC or Mac. They are organised in a hierarchy, so directories can have sub-directories and so on. 
 
-![](img/week_01_directory_structure.png)
+![](week_01/img/week_01_directory_structure.png)
 
 *[Source: devOpsAGE](https://www.devopsage.com/file-system-hierarchy-of-linux/)*
 
 ## Structure of a pahtname
 
-![](img/week_01_pathname.jpg)
+![](week_01/img/week_01_pathname.jpg)
 
 *[Source: eTutorials.org](http://etutorials.org/Linux+systems/red+hat+linux+9+professional+secrets/Part+II+Exploring+Red+Hat+Linux/Chapter+7+Red+Hat+Linux+Basics/Understanding+the+Linux+File+System/)*
 
