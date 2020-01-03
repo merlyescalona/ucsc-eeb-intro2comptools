@@ -18,7 +18,7 @@ At the end of the course participants will be comfortable using the bash environ
 
 ## Weekly program (subject to change):
 
-- [Setting resources necessary](tree/master/week_00/), introduction to the bash environment, navigating your computer using bash
+- [Setting resources necessary](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00), introduction to the bash environment, navigating your computer using bash
 - Text editors, basic bash scripts, bash loops
 - Introduction to version control, GitHub, Bitbucket
 - Connecting to hummingbird, copying data, and submitting jobs
