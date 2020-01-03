@@ -8,26 +8,27 @@ You should have access to the linux environment, running virtual box if you have
 ### Open terminal
 > Add the yellow flag to the right corner of your laptop
 
-Also called command line, this is an application:
+Also called command line, terminal is an application located in :
 Mac: applications > utilities > Terminal.app
 Ubuntu: 
 
-You might want to add this applciation to your dock for rapid access
+You might want to add this application to your dock for rapid access
 
 > Change your flag to green if you are good to continue
 
 ### Navigation of your computer using terminal
-Now that you have open terminal you will see a black screen waiting for commands. First we need to know where in the computer we are located:
-
-pwd= print working directory, now we know our location in the computer
 
 > Change your flag to yellow
+
+Now that you have open terminal you will see a black screen waiting for commands. First we need to know where in the computer we are located by typing:
 
 ```
 pwd
 ```
+now press `enter`
 
-The default location after you have open terminal is your `home` directory 
+
+`pwd` prints a complete path to your working directory. Now that we know our location in the computer. The default location after you have open terminal is your `home` directory 
 
 We can list the contents of the directory by typing
 
@@ -101,6 +102,12 @@ If you want to go back to the parent directory you simply type:
 
 ```
 cd ..
+```
+
+You can always return to your `home` directory by:
+
+```
+cd
 ```
 
 ***TIP:*** To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy. let's drag and drop the folder `week_1` in after typing `cd `, then press `enter`
@@ -235,8 +242,21 @@ List only files that contain the string "002":
 ls *002*
 ```
 
+### removing files
 
+With great power comes great resposability! Files removed throught the terminal are gone forever, they DON't go to a trash bin from where they can be reinstated. You can remove a file just by typing:
 
+```
+rm personal_log_002.r
+```
+
+You can remove all the ".txt" files:
+
+```
+rm *.txt
+```
+
+***CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
 
 
