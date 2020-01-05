@@ -30,6 +30,12 @@ now press <kbd>return</kbd>
 
 `pwd` prints a complete path to your working directory. Now that we know our location in the computer. The default location after you have open terminal is your `home` directory 
 
+For reference here is the general file structure in linux-based systems
+
+![](img/week_01_directory_structure.png)
+
+![](img/week_01_pathname.jpg)
+
 We can list the contents of the directory by typing
 
 ```
