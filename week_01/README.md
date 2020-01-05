@@ -25,7 +25,7 @@ Now that you have open terminal you will see a black screen waiting for commands
 ```
 pwd
 ```
-now press `enter`
+now press <kbd>return</kbd>
 
 
 `pwd` prints a complete path to your working directory. Now that we know our location in the computer. The default location after you have open terminal is your `home` directory 
@@ -151,15 +151,15 @@ I love coding
 
 Notice that at the bottom of the window, there are commands instructions. To exit and save press:
 
-`control` + `x`
+<kbd>control</kbd> + <kbd>x</kbd>
 
 Then answer:
 
-`y`
+<kbd>y</kbd>
 
 Finally press:
 
-`enter`
+<kbd>return</kbd>
 
 
 If you `ls` your new file should appear there. We can print the contect of a file to the screen easily by typing:
@@ -256,7 +256,7 @@ You can remove all the ".txt" files:
 rm *.txt
 ```
 
-***CAUTION `rm *` will remove ALL the files inside the directory forever!***
+***EXTREME CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
 
 
