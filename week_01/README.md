@@ -84,6 +84,12 @@ Now that you know to identify your working directory and list the items now we w
 
 > Change your flag to Yellow
 
+Let's move into the Documents folder:
+
+```
+cd Documents
+```
+
 To create a new directory labeled "week_1" type:
 
 ```
