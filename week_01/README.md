@@ -78,9 +78,9 @@ ls -lah
 
 **Can you tell us what does the options `-h` do?**
 
-### Creating directories
-
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
+
+### Creating directories
 
 Now that you know to identify your working directory and list the items now we will learn how to created directories and move across directories.
 
@@ -274,6 +274,5 @@ rm *.txt
 
 ***EXTREME CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
-
-
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
