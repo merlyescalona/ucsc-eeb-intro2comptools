@@ -14,11 +14,11 @@ Ubuntu:
 
 You might want to add this application to your dock for rapid access
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### Navigation of your computer using terminal
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 Now that you have open terminal you will see a black screen waiting for commands. First we need to know where in the computer we are located by typing:
 
@@ -78,11 +78,11 @@ ls -lash
 
 **Can you tell us what does the options `-s` and `-h` do?**
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 Now that you know to identify your working directory and list the items now we will learn how to created directories and move across directories.
 
-> Change your flag to Yellow
+> Change your flag to Yellow ![](img/yellow.jpeg)
 
 Let's move into the Documents folder:
 
@@ -143,11 +143,11 @@ We can remove both unwanted directories by typing
 rmdir 1 test
 ```
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### Creating a managing files
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 A practical way to create a file is to use the text editor `nano`. Let's create a new file by typing:
 
@@ -222,11 +222,11 @@ cat personal_log_002.r
 
 Notice that regarding the extension of the file `.txt` / `.r` cat prints the contents of the file to the screen.
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### using wild cards
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 In cases where directories contain thousands of files, it might not be practical to list all contents. Instead we can use wildcards * to list only files of interest.
 
