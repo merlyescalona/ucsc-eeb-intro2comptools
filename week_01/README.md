@@ -14,11 +14,11 @@ Ubuntu:
 
 You might want to add this application to your dock for rapid access
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### Navigation of your computer using terminal
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 Now that you have open terminal you will see a black screen waiting for commands. First we need to know where in the computer we are located by typing:
 
@@ -48,7 +48,7 @@ The command `ls` can be accompanied with several options to provide more details
 ls -l
 ```
 
-The `ls -a` option shows files tthat start with ".", these files are hiddend files usually not shown on your screen.
+The `ls -a` option shows All files, including the ones that start with ".", these files are hiddend files usually not shown on your screen.
 
 ```
 ls -a
@@ -56,7 +56,7 @@ ls -a
 
 Do you have any hidden files in your folder?
 
-You can combine different options to obtain the information desired by using the options `-la` together the output will show you longer details of items, including hidden files
+You can combine different options to obtain the information desired by using the options `-la` together the output will show you Longer details of items, including hidden files
 
 ```
 ls -la
@@ -73,16 +73,18 @@ Stuck in the window? You can scroll with the spacebar and/or with the arrows of 
 A friendly combination of options for `ls` is:
 
 ```
-ls -lash
+ls -lah
 ```
 
-**Can you tell us what does the options `-s` and `-h` do?**
+**Can you tell us what does the options `-h` do?**
 
-> Change your flag to green if you are good to continue
+### Creating directories
+
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 Now that you know to identify your working directory and list the items now we will learn how to created directories and move across directories.
 
-> Change your flag to Yellow
+> Change your flag to Yellow ![](img/yellow.jpeg)
 
 Let's move into the Documents folder:
 
@@ -121,8 +123,10 @@ You can always return to your `home` directory by:
 ```
 cd
 ```
+***TIP:*** When the terminal is ready to recibe your command, you can go back earlier commands by simply pressing the up arrow key <kbd>↑</kbd>
 
-***TIP:*** To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy. let's drag and drop the folder `week_1` in after typing `cd `, then press `enter`
+
+***TIP:*** To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy. let's drag and drop the folder `week_1` in after typing `cd `, then press <kbd>enter</kbd>
 
 You can see that the drag and drop method adds the complete path of the folder instead of the relative path.
 
@@ -143,11 +147,11 @@ We can remove both unwanted directories by typing
 rmdir 1 test
 ```
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### Creating a managing files
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 A practical way to create a file is to use the text editor `nano`. Let's create a new file by typing:
 
@@ -222,11 +226,11 @@ cat personal_log_002.r
 
 Notice that regarding the extension of the file `.txt` / `.r` cat prints the contents of the file to the screen.
 
-> Change your flag to green if you are good to continue
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### using wild cards
 
-> Change your flag to yellow
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 In cases where directories contain thousands of files, it might not be practical to list all contents. Instead we can use wildcards * to list only files of interest.
 
