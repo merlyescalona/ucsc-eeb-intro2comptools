@@ -48,7 +48,7 @@ The command `ls` can be accompanied with several options to provide more details
 ls -l
 ```
 
-The `ls -a` option shows files tthat start with ".", these files are hiddend files usually not shown on your screen.
+The `ls -a` option shows All files, including the ones that start with ".", these files are hiddend files usually not shown on your screen.
 
 ```
 ls -a
@@ -56,7 +56,7 @@ ls -a
 
 Do you have any hidden files in your folder?
 
-You can combine different options to obtain the information desired by using the options `-la` together the output will show you longer details of items, including hidden files
+You can combine different options to obtain the information desired by using the options `-la` together the output will show you Longer details of items, including hidden files
 
 ```
 ls -la
@@ -73,10 +73,10 @@ Stuck in the window? You can scroll with the spacebar and/or with the arrows of 
 A friendly combination of options for `ls` is:
 
 ```
-ls -lash
+ls -lah
 ```
 
-**Can you tell us what does the options `-s` and `-h` do?**
+**Can you tell us what does the options `-h` do?**
 
 ### Creating directories
 
@@ -123,6 +123,8 @@ You can always return to your `home` directory by:
 ```
 cd
 ```
+***TIP:*** When the terminal is ready to recibe your command, you can go back earlier commands by simply pressing the up arrow key <kbd>↑</kbd>
+
 
 ***TIP:*** To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy. let's drag and drop the folder `week_1` in after typing `cd `, then press `enter`
 
