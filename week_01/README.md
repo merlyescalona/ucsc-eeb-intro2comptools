@@ -6,7 +6,7 @@
 You should have access to the linux environment, running virtual box if you have a windows machine or native in your mac.
 
 ### Open terminal
-> Add the yellow flag to the right corner of your laptop
+> Add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg | width="25" height="25")
 
 Also called command line, terminal is an application located in :
 Mac: applications > utilities > Terminal.app
@@ -25,10 +25,16 @@ Now that you have open terminal you will see a black screen waiting for commands
 ```
 pwd
 ```
-now press `enter`
+now press <kbd>return</kbd>
 
 
 `pwd` prints a complete path to your working directory. Now that we know our location in the computer. The default location after you have open terminal is your `home` directory 
+
+For reference here is the general file structure in linux-based systems
+
+![](img/week_01_directory_structure.png)
+
+![](img/week_01_pathname.jpg)
 
 We can list the contents of the directory by typing
 
@@ -77,6 +83,12 @@ ls -lash
 Now that you know to identify your working directory and list the items now we will learn how to created directories and move across directories.
 
 > Change your flag to Yellow
+
+Let's move into the Documents folder:
+
+```
+cd Documents
+```
 
 To create a new directory labeled "week_1" type:
 
@@ -151,15 +163,15 @@ I love coding
 
 Notice that at the bottom of the window, there are commands instructions. To exit and save press:
 
-`control` + `x`
+<kbd>control</kbd> + <kbd>x</kbd>
 
 Then answer:
 
-`y`
+<kbd>y</kbd>
 
 Finally press:
 
-`enter`
+<kbd>return</kbd>
 
 
 If you `ls` your new file should appear there. We can print the contect of a file to the screen easily by typing:
@@ -256,7 +268,7 @@ You can remove all the ".txt" files:
 rm *.txt
 ```
 
-***CAUTION `rm *` will remove ALL the files inside the directory forever!***
+***EXTREME CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
 
 
