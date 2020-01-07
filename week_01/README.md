@@ -6,7 +6,7 @@
 You should have access to the linux environment, running virtual box if you have a windows machine or native in your mac.
 
 ### Open terminal
-> Add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg | width="25" height="25")
+> Add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg)
 
 Also called command line, terminal is an application located in :
 Mac: applications > utilities > Terminal.app
