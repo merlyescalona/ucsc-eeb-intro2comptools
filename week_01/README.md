@@ -149,7 +149,7 @@ rmdir 1 test
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
-### Creating a managing files
+### Creating and managing files
 
 > Change your flag to yellow ![](img/yellow.jpeg)
 
