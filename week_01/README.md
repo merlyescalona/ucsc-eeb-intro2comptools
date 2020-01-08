@@ -14,9 +14,9 @@ There is an application, and you can access it with:
 - Finder, go to: Applications > Utilities > Terminal.app
 - Spotlight search function, write `terminal` and press <kbd>Return</kbd>.
 
-> **Tip:** You might want to add this application to your dock for easy access.
+***TIP:*** You might want to add this application to your dock for easy access.
 
-> **NOTE:** For a Mac computer running macOS Mojave or earlier releases, the default Unix Shell is **Bash**. For a Mac computer running macOS Catalina or later releases, the default Unix Shell is **Zsh**. The default shell of your system is available via the terminal. If your machine is set up to something other than Bash, you can run it by openning a terminal and typing `bash`.
+***NOTE:*** For a Mac computer running macOS Mojave or earlier releases, the default Unix Shell is **Bash**. For a Mac computer running macOS Catalina or later releases, the default Unix Shell is **Zsh**. The default shell of your system is available via the terminal. If your machine is set up to something other than Bash, you can run it by openning a terminal and typing `bash`.
 
 #### Linux users
 
@@ -31,9 +31,9 @@ All of them can be found via:
 - the Applications menu (top or bottom left) > Utilities > Terminal
 - <kbd>Super</kbd> + typing `terminal`.
 
-> **Tip:** You might want to add this application to your dock/favorites for easy access.
+***TIP:*** You might want to add this application to your dock/favorites for easy access.
 
-> **NOTE:** If your machine is set up to use something other than Bash, you can run it by opening a terminal and typing `bash`.
+***NOTE:*** If your machine is set up to use something other than Bash, you can run it by opening a terminal and typing `bash`.
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 
