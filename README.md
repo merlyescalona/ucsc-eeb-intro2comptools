@@ -18,12 +18,12 @@ At the end of the course participants will be comfortable using the bash environ
 
 ## Weekly program (subject to change):
 
-- [Setting resources necessary](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00), introduction to the bash environment, navigating your computer using bash
+- [Setting resources necessary](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00), introduction to bash, navigating your computer using bash
 - Text editors, basic bash scripts, bash loops
 - Introduction to version control, GitHub, Bitbucket
 - Connecting to hummingbird, copying data, and submitting jobs
-- Introduction to python, main elements in python. Data types: lists, dictionaries, float vs. integers, etc...
-- Loops in python
+- Project pitching. Introduction to python, main elements in python. 
+- Data types: lists, dictionaries, float vs. integers, etc... Loops in python
 - Manipulating data frames in python, pandas
 - Biopython
 - Complex scripts in python, processing multiple files using loops. General tips for coding
