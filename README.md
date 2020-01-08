@@ -12,6 +12,9 @@ Winter Quarter 2020.
 
 Starting January 10th, 2020, we will meet Fridays from 2:00-3:00pm (room is booked until 3:30pm just in case) at CBB 110.
 
+Also available via Zoom: https://ucsc.zoom.us/j/362270298?_ga=2.164099577.715449705.1578525081-1039659721.1578525081
+Meeting ID: 362-270-298
+
 ## What to expect?
 
 At the end of the course participants will be comfortable using the bash environment, submitting jobs to the hummingbird supercomputer, and writing basic python scripts.
