@@ -20,6 +20,8 @@ Meeting ID: 362-270-298
 
 At the end of the course participants will be comfortable using the bash environment, submitting jobs to the hummingbird supercomputer, and writing basic python scripts.
 
+To pass the course students formally enrrolled are expected to attend at least 70% of the classes and develop a coding project that will be presented in the last class, the project can be developed alone or with a classmate.
+
 ## Weekly program (subject to change):
 
 - [Setting resources necessary](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00), introduction to bash, navigating your computer using bash
