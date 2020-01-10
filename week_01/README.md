@@ -195,7 +195,7 @@ cd
 
 ***TIP:*** To change directories type `cd ` and then **drag and drop** the folder you want to go. This will reduce the ammount of typing if the desired folder you wat to relocate to is too nested in the file hierarchy. let's drag and drop the folder `week_1` in after typing `cd `, then press <kbd>enter</kbd>
 
-You can see that the drag and drop method adds the complete path of the folder instead of the relative path.
+You can see that the drag and drop method adds the absolute path of the folder instead of the relative path.
 
 You can infer, from the way the command line works, that spaces inside folder and file names can be problematic. For example, let's see what thappens when we try to create a folder "test 1" inside `week_1`
 
@@ -204,7 +204,7 @@ mkdir test 1
 ```
 What happened?
 
-The command line interprets `test` and `1` as different argunments.
+The command line interprets `test` and `1` as different arguments.
 
 ***From now on avoid using spaces in file and folder names, use _ instead***
 
