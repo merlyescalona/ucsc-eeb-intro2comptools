@@ -151,3 +151,41 @@ This machine should have installed all the necesary software that we will be usi
 - [`pandas`](https://pandas.pydata.org/)
 
 
+
+## VirtualBox guest additions.
+
+The features of the VM once is initialized may be a little rough. These additions consist of device drivers and system applications that optimize the guest operating system (our Ubuntu machine) for better performance and usability. 
+
+> To know more of what these additions do,  you can check the [VirtualBox site](https://www.virtualbox.org/manual/ch04.html).
+
+### Installation of guest additions
+
+You don't need to download these additions, but you will need to install them. To do so, once your VM is on you will go to the toolbar on the top of the windows and go to 'Devices':
+
+![](img/virtualbox_06.png)
+
+There, you then will click the option 'Inster Guest Additions CD image...', this will be like we were inserting a CD in the VM.
+
+![](img/virtualbox_07.png)
+
+Once we click there, the guest OS will ask us how to handle the CD, we will then click 'Run'.
+
+![](img/virtualbox_08.png)
+
+Since this is an installation of some drivers in the guest OS, we will be asked to enter the admin password. In this case, the same we use to access the VM.
+
+![](img/virtualbox_09.png)
+
+It will open a window (the Terminal) and some text describing the status of the installation will appear.
+
+![](img/virtualbox_10.png)
+
+When it has finished, the last line of the text will say 'Press Return to close this window...'
+
+![](img/virtualbox_11.png)
+
+And so wi will press <kbd>Return</kbd>, the windows will close and we will have to restart the VM. The next time the VM is on, we will be able to adjust the size of the window, better handle the mouse and keyboard integrations, and more. 
+
+
+
+
