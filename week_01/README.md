@@ -18,7 +18,7 @@ There is an application, and you can access it with:
 
 #### Linux users
 
-There are multiple Linux flavors. The default Unix Shell for Linux is usually Bash. On most version the shell is accessible running:
+There are multiple Linux flavors, hence there might be multiple terminal flavors. Some of them:
  
 - [(Gnome) Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
 - [(KDE) Konsole](https://konsole.kde.org/)
@@ -26,6 +26,7 @@ There are multiple Linux flavors. The default Unix Shell for Linux is usually Ba
 - [tilix](https://gnunn1.github.io/tilix-web/)
 
 All of them can be found via:
+- the Applications menu (top or bottom left) > Terminal
 - the Applications menu (top or bottom left) > Utilities > Terminal
 - <kbd>Super</kbd> + typing `terminal`.
 
