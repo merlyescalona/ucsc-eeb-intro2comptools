@@ -177,7 +177,7 @@ wc genes_1.fas
 
 ### Loops / iterative actions
 
-> Change your flag to yellow [](img/yellow.jpeg) 
+> Change your flag to yellow ![](img/yellow.jpeg) 
 
 In order to check if `cat` did a good job we need to ***count the number of lines for each file***, we type `grep “>” genes_1.fas | wc -l` four times changing the file name, but it seems obsolete and repetitive.
 
