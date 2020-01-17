@@ -155,13 +155,13 @@ head genes_1.fas
 Because there is only one `>` per sequence, we can infer the number of sequences in the file by counting how many times this character is present.
 
 ```
-grep “>” genes_1.fas
+grep ">" genes_1.fas
 ```
 
 We can combine pipe the output of `grep` with word count `wc` to calculate the number of sequences in our file
 
 ```
-grep “>” genes_1.fas | wc -l
+grep ">" genes_1.fas | wc -l
 ```
 
 The option `wc -l` ask `wc` to only count the number of lines.
@@ -190,7 +190,7 @@ do
 done
 ```
 
-We need somehow to convert `grep “>” genes_1.fas | wc -l` into a loop. Let’s start with the most basic loop:
+We need somehow to convert `grep ">" genes_1.fas | wc -l` into a loop. Let’s start with the most basic loop:
 
 ```
 for file in *.fas; do echo $file; done
@@ -199,7 +199,7 @@ for file in *.fas; do echo $file; done
 `echo` simply prints the name of the file.  Cool, right! We can modify this simple loop to get closer to our solution, asking `grep` to only show the lines with the `>` character
  
 ```
-for file in *.fas; do echo $file; grep ‘>’ $file; done
+for file in *.fas; do echo $file; grep ">" $file; done
 ```
 
 We see that we are pretty close, we are printing the file name and every line that contains `>`. 
@@ -207,7 +207,7 @@ We see that we are pretty close, we are printing the file name and every line th
 Now we just need to pipe the output of `grep` into `wc`
 
 ```
-for file in *.fas; do echo $file; grep '>' $file | wc -l; done
+for file in *.fas; do echo $file; grep ">" $file | wc -l; done
 ```
 
 Excellent!
@@ -215,7 +215,7 @@ Excellent!
 Notice that there is also another solution to the problem:
 
 ```
-for file in *.fas; do echo $file; grep -c '>' $file; done
+for file in *.fas; do echo $file; grep -c ">" $file; done
 ```
 
 One of the beauties of coding is that there can be several solutions to the same problem. Loops are really powerful and can be used to analyze/process many files with a single line of code.
