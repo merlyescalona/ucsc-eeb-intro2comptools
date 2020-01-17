@@ -2,7 +2,7 @@
 
 > Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg)
 
-### Cancel a running process
+## Cancel a running process
 
 Sometimes an unwanted process happens in our terminal, perhaps we `cat` a really long file or we just insert a typo in the command line. We can simulate an unwanted process by just typing
 
@@ -16,7 +16,7 @@ you might think that the terminal is stuck, that we might have missed and argume
 
 The process is canceled and the terminal is ready to receive a command.
 
-### Command history
+## Command history
 
 We can review all the latest commands typed recently easily by typing:
 
@@ -24,11 +24,9 @@ We can review all the latest commands typed recently easily by typing:
 history
 ```
 
-### Advance `cat` use and looking inside files
+## Advance use of `cat` and looking inside files
 
-`cat` can be used to concatenate files.
-
-First, create a folder for today’s exercise and move into it:
+`cat` can be used to print content of a file to the screen or to concatenate files. First, create a folder for today’s exercise and move into it:
 
 ```
 mkdir week_2
@@ -66,10 +64,6 @@ This looks better, the content shows up when you decide to, but what about the w
 
 **Check the option `-S`. What does it do?  How would you look for this option if you don’t know?**
 
-```
-man less
-```
-
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 
@@ -102,7 +96,7 @@ Finally, the other purpose of `cat` is to concatenate files. You can concatenate
 cat genes_1.fas genes_2.fas > genes_3.fas
 ```
 
-We can check the concatenation was successful typing
+We can check the concatenation was successful typing:
 
 ```
 ls -lah
@@ -197,21 +191,18 @@ do
 done
 ```
 
-We need somehow to convert `grep “>” genes_1.fas | wc -l` into a loop.
-
-Let’s start with the most basic loop:
+We need somehow to convert `grep “>” genes_1.fas | wc -l` into a loop. Let’s start with the most basic loop:
 
 ```
 for file in *.fas; do echo $file; done
 ```
 
-`echo` simply prints the name of the file.  Cool, right!
-
-We can modify this simple loop to get closer to our solution, asking `grep` to only show the lines with the `>` character
+`echo` simply prints the name of the file.  Cool, right! We can modify this simple loop to get closer to our solution, asking `grep` to only show the lines with the `>` character
  
 ```
 for file in *.fas; do echo $file; grep ‘>’ $file; done
 ```
+
 We see that we are pretty close, we are printing the file name and every line that contains `>`. 
 
 Now we just need to pipe the output of `grep` into `wc`
@@ -228,19 +219,15 @@ Notice that there is also another solution to the problem:
 for file in *.fas; do echo $file; grep -c '>' $file; done
 ```
 
-One of the beauties of coding is that there can be several solutions to the same problem.
-
-Loops are really powerful and can be used to analyze/process many files with a single line of code.
+One of the beauties of coding is that there can be several solutions to the same problem. Loops are really powerful and can be used to analyze/process many files with a single line of code.
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
-### Scrips
+### Scripts
 
 > Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg) 
 
-Simple commands and loops can be saved in a text file so they can executed later again. This is especially useful in science because your analyses can be easily replicated when you save your scripts.
-
-We can easily save the cool loop we just invented:
+Simple commands and loops can be saved in a text file so they can executed later again. This is especially useful in science because your analyses can be easily replicated when you save your scripts. We can easily save the cool loop we just invented:
 
 ```
 nano fasta_seq_counter.sh
