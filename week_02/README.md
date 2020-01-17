@@ -4,13 +4,13 @@
 
 ## Cancel a running process
 
-Sometimes an unwanted process happens in our terminal, perhaps we `cat` a really long file or we just insert a typo in the command line. We can simulate an unwanted process by just typing
+Sometimes an unwanted process happens in our terminal, perhaps we `cat` a really long file or we just insert a typo in the command line. We can simulate an unwanted process by just typing:
 
 ```
 cat
 ```
 
-you might think that the terminal is stuck, that we might have missed and argument for `cat`, but `cat`  is operating nevertheless. We can easily cancel the process by typing:
+You might think that the terminal is stuck, that we might have missed and argument for `cat`, but `cat`  is operating nevertheless. We can easily cancel the process by typing:
 
 <kbd>control</kbd> + <kbd>c</kbd>
 
@@ -64,8 +64,9 @@ This looks better, the content shows up when you decide to, but what about the w
 
 **Check the option `-S`. What does it do?  How would you look for this option if you don’t know?**
 
-> Change your flag to green if you are good to continue ![](img/green.jpeg)
-
+```
+less -S genes_1.fas
+```
 
 For speed sometimes we would like to see only the first few lines of a file. `head`, as it name implies, it will allow us to check the first lines of a file. By default it will show the first 10 lines, but we can use the options of the command to ask for more or even less lines.
 
@@ -74,8 +75,6 @@ head genes_1.fas
 ```
 
 **Which option do you need to use to do this?**
-
-> Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg) 
 
 If we use the `-` followed by a number, we will be able to ask for a specific number of lines. For example:
 
@@ -117,7 +116,7 @@ cat *.cat > genes_4.fas
 
 # Standard I/O and redirection
 
-> Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg) 
+> Change your flag to yellow ![](img/yellow.jpeg) 
 
 Every Unix program starts out with three connections to the outside world. These connections are called ***streams*** because they act like a stream of information (metaphorically speaking):
 
@@ -178,7 +177,7 @@ wc genes_1.fas
 
 ### Loops / iterative actions
 
-> Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg) 
+> Change your flag to yellow [](img/yellow.jpeg) 
 
 In order to check if `cat` did a good job we need to ***count the number of lines for each file***, we type `grep “>” genes_1.fas | wc -l` four times changing the file name, but it seems obsolete and repetitive.
 
@@ -225,7 +224,7 @@ One of the beauties of coding is that there can be several solutions to the same
 
 ### Scripts
 
-> Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg) 
+> Change your flag to yellow [](img/yellow.jpeg) 
 
 Simple commands and loops can be saved in a text file so they can executed later again. This is especially useful in science because your analyses can be easily replicated when you save your scripts. We can easily save the cool loop we just invented:
 
