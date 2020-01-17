@@ -2,13 +2,6 @@
 
 > Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg)
 
-
-> Change your flag to green if you are good to continue ![](img/green.jpeg)
-
-
-
-> Open terminal and add the yellow flag to the right corner of your laptop ![](img/yellow.jpeg)
-
 ### Cancel a running process
 
 Sometimes an unwanted process happens in our terminal, perhaps we `cat` a really long file or we just insert a typo in the command line. We can simulate an unwanted process by just typing
