@@ -244,7 +244,7 @@ Save the file.
 Notice two things:
 
 - The `#` is to “comment out” a line. When a “#” precedes a line the following text is not interpreted as a command.
-- There should be an <kbd>enter</kbd> at the end of the last line to ensure the line is executed.
+- There should be a new line (<kbd>Return</kbd>) at the end of the last line to ensure the line is executed.
 
 # Permissions and executing a bash script
 
