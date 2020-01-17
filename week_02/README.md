@@ -107,7 +107,7 @@ ls -lah
 As a reminder we can use wild cards `*` to facilitate things. I can concatenate all the `.fas` files by:
 
 ```
-cat *.cat > genes_4.fas 
+cat *.fas > genes_4.fas 
 ```
 
 **Did it work?**
