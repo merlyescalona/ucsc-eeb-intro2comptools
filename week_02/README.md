@@ -224,7 +224,7 @@ One of the beauties of coding is that there can be several solutions to the same
 
 ### Scripts
 
-> Change your flag to yellow [](img/yellow.jpeg) 
+> Change your flag to yellow ![](img/yellow.jpeg) 
 
 Simple commands and loops can be saved in a text file so they can executed later again. This is especially useful in science because your analyses can be easily replicated when you save your scripts. We can easily save the cool loop we just invented:
 
