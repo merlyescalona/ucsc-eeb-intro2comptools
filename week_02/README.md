@@ -48,7 +48,7 @@ cat genes_1.fas
 
 Wow! That is too much information to fit in the screen. `cat` will show all the content of the file and we won’t be able to interact with it.
 
-You can use `more` to go through the file line-by-line by pressing <kbd>Return</qbd>. You can quit the program by typing <kbd>q</qbd>
+You can use `more` to go through the file line-by-line by pressing <kbd>Return</kbd>. You can quit the program by typing <kbd>q</kbd>
 
 ```
 more genes_1.fas
