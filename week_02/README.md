@@ -29,6 +29,7 @@ history
 `cat` can be used to print content of a file to the screen or to concatenate files. First, create a folder for today’s exercise and move into it:
 
 ```
+cd Documents
 mkdir week_2
 cd week_2
 ```
@@ -107,7 +108,7 @@ ls -lah
 As a reminder we can use wild cards `*` to facilitate things. I can concatenate all the `.fas` files by:
 
 ```
-cat *.cat > genes_4.fas 
+cat *.fas > genes_4.fas 
 ```
 
 **Did it work?**
