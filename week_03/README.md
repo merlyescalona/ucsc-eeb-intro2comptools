@@ -203,6 +203,7 @@ Let’s start by going to the [GitHub web page](https://github.com/).
 Now that your repository has been created we need to link your local folder with GitHub. In your terminal type:
 
 ```
+git init
 git remote add origin https://github.com/YOURUSERNAME/seqcounter.git
 ```
 
