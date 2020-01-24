@@ -29,6 +29,7 @@ history
 `cat` can be used to print content of a file to the screen or to concatenate files. First, create a folder for today’s exercise and move into it:
 
 ```
+cd Documents
 mkdir week_2
 cd week_2
 ```
