@@ -7,7 +7,7 @@ Version control is a system (VCS) that records changes to a file or set of files
 
 | Method       | Graphic setup        | Tools                                     |
 |--------------|----------------------|-------------------------------------------|
-| Local        | ![](img/git_01.png)  | [RCS] (https://www.gnu.org/software/rcs/) |
+| Local        | ![](img/git_01.png)  | [RCS](https://www.gnu.org/software/rcs/) |
 | Centralized  | ![](img/git_02.png)  | [CVS](https://www.nongnu.org/cvs/), [Subversion](https://subversion.apache.org/) |
 | Distributed  | ![](img/git_03.png)  | [Git](https://git-scm.com/), [Mercurial](https://www.mercurial-scm.org/) |
 
@@ -37,7 +37,7 @@ Features for the basic type of accounts for each of the services:
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------| 
 | Unlimited repositories				                                                            | Unlimited private and public projects                                         |
 | 3 collaborators/private repository			                                                  |  5 collaborators  			                                                      |
-| [Education](https://education.github.com/discount_requests/new) Get account then request | [Education](https://bitbucket.org/product/education) Get account then request |
+| [Education version](https://education.github.com/discount_requests/new) (Get account first then request access) | [Education version](https://bitbucket.org/product/education) (Get account first then request access) |
 
 
 Demo Oscar’s or Merly’s repositories (current class is also a repository :wink:)
@@ -61,9 +61,9 @@ which git
 
 ## macOS
 
-There are also a few ways to install Git on macOS:
+There are also a few ways to install `git` on macOS:
 - A macOS `git` installer is maintained and available for download at the `git` website, at https://git-scm.com/download/mac.
-- You can also install it as part of the GitHub for macOS install. Their  graphical user interface (GUI) `git` tool has an option to install command line tools as well. You can download that tool from the GitHub for macOS website, at https://desktop.github.com.
+- You can also install it as part of the GitHub for macOS install. Their graphical user interface (GUI) `git` tool has an option to install command line tools as well. You can download that tool from the GitHub for macOS website, at https://desktop.github.com.
 
 
 ## Linux 
@@ -74,9 +74,9 @@ sudo apt-get install git-all
 
 ## Windows 
 
-There are also a couple of ways to install Git on Windows:
-- The most official build is available for download on the Git website. Some of you already download it on [week_00](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00#using-git-for-windows).
-- Another easy way to get Git installed is by installing GitHub Desktop. The installer includes a command line version of `git` as well as the GUI. You can download this from the [GitHub Desktop website](https://desktop.github.com/).
+There are also a couple of ways to install `git` on Windows:
+- The most official build is available for download on the `git` website. Some of you already download it on [week_00](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00#using-git-for-windows).
+- Another easy way to get `git` installed is by installing GitHub Desktop. The installer includes a command line version of `git` as well as the GUI. You can download this from the [GitHub Desktop website](https://desktop.github.com/).
 
 
 ## Verify that your git installation was successful
@@ -152,11 +152,9 @@ We can use our script to get the number of sequences in these FASTA files. Make 
 
 Now that we have this working, we might want to do this in the future. We might also want to add more commands, and be able to track changes as we go. So we are going to make a repository out of this directory. We need to add some information about the script that we have so others (and the future us) can understand it. 
 
-To do that we create a **`README.md` file**. This file will work as a manual and will give all the needed information about the respository and all repositories should have one. The `README.md` is a text file with markdown formatting. This kind of files are nicely interpreted by the web interface and they are shown directly to the reader. All lessons for this class are written as markdown. A manual on formatting this file can be found [here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
-
+To do that we create a **`README.md` file**. This file will work as a manual and will give all the needed information about the respository and all repositories should have one. The `README.md` is a text file with markdown formatting. This kind of files are nicely interpreted by the web interface and they are shown directly to the reader. All lessons for this class are written in markdown. A manual for the *markdown* format can be found [here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 Let's create a `README.md` file:
-
 
 ```
 nano README.md
@@ -188,11 +186,11 @@ Let’s start by going to the [GitHub web page](https://github.com/).
 
 1. Sign in (if we are not already)
 
-2. Go to your main page, and at the top-right corner click on the <kdb> + </kdb>:
+2. Go to your main page, and at the top-right corner click on the <kbd> + </kbd>:
 
 ![](img/git_04.png)
 
-3. Select New repository
+3. Select "New repository".
 
 4. Fill out the form. Keep in mind, that the name of the repository is going to be part of the URL that’s going to give access to your repository. So, try to make it descriptive (`seqcounter` can be an option here).
 
@@ -200,7 +198,7 @@ Let’s start by going to the [GitHub web page](https://github.com/).
 
 ## Linking repositories
 
-Now that your repository has been created on the server, we need to link your local folder with GitHub. First, we need to initialize our repository (basically setting up our folder as a repository) and then link it. In your terminal type:
+Now that your repository has been created on the GitHub server, we need to link your local folder with GitHub. First, we need set up our folder as a repository and then link it. In your terminal type:
 
 ```
 git init # This is a one-time command
@@ -219,19 +217,19 @@ Now that we have linked our local files with the repository we can synchronize o
 
 So, how do we tell `git` which files to put into a commit? This is where the staging environment comes in. When we make changes a the repo, `git` notices that a file has changed but won't record or do anything with it (like adding it in a commit).
 
-To add a file to a commit, you first need to add it to the staging environment. To do this, we can use the `git add <filename>` command or we can add all the files. Remember the wildcard `*`?
+To add a file to a ***commit***, you first need to add it to the staging environment. To do this, we can use the `git add <filename>` command or we can add all the files. Remember the wildcard `*`?
 
 ```
 git add *
 ```
 
-We’ve added all the files we want to the staging environment, then we can commit all changes adding also a comment of what we did with the option `-m`. If we decide not to add any comment in the same line, `git` will either complain or it will automatically open an editor (i.e. `vim`, `nano`) and allow us to add a comment. It won’t accept being left empty.
+We’ve added all the files we want to the staging environment, then we can commit all changes adding also a comment of what we did with the option `-m`. If we decide not to add any comment in the same line (or we forget), `git` will either complain or it will automatically open an editor (i.e. `vim`, `nano`) and allow us to add a comment. It won’t accept being left empty.
 
 ```
 git commit -m “initial push”
 ```
 
-In future synchronizations “initial push” can be replaced by things like “fixed bug in code” or “edited text”, these comments will accompany the version of your files and will help to keep track of the changes being made.
+In future synchronizations `“initial push”` can be replaced by things like `“fixed bug in code”` or `“edited text”`, these comments will accompany the version of your files and will help to keep track of the changes being made. 
 
 Finally we can update our remote GitHub repository with:
 
@@ -247,13 +245,13 @@ When you collaborate or make changes on-line your local files are going to be ou
 
 > Change your flag to yellow![](img/yellow.jpeg)
 
-Here is an example. First, on GitHub, click on the `seqcounter.sh`, you can see all your code on-line. Then clink on the pencil at the top right of the text window. You can now edit the script on-line. Add the following line to the end of the script:
+Here is an example. First, on GitHub, click on the `seqcounter.sh`, you can see all your code on-line. Then click on the :pencil2: at the top right of the text window. You can now edit the script on-line. Add the following line to the end of the script:
 
 ```
 echo done
 ```
 
-This line will print `done` once the code had run, a nice touch. But now our local files are out to date, we can check this with:
+This line will print `done` once the code had run (a nice touch that helps for debugging), but now our local files are out to date, we can check this with:
 
 ```
 git status
