@@ -37,13 +37,13 @@ Features for the basic type of accounts for each of the services:
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------| 
 | Unlimited repositories				                                                            | Unlimited private and public projects                                         |
 | 3 collaborators/private repository			                                                  |  5 collaborators  			                                                      |
-| [Education](https://education.github.com/discount_r equests/new) Get account then request | [Education](https://bitbucket.org/product/education) Get account then request |
+| [Education](https://education.github.com/discount_requests/new) Get account then request | [Education](https://bitbucket.org/product/education) Get account then request |
 
 
 Demo Oscar’s or Merly’s repositories (current class is also a repository :wink:)
 
-https://bitbucket.org/oscarvargash/
-https://github.com/merlyescalona
+- https://bitbucket.org/oscarvargash/
+- https://github.com/merlyescalona
 
 > Change your flag to yellow![](img/yellow.jpeg)
 
@@ -54,16 +54,16 @@ You can check if `git` is installed on your machine, open a terminal and type:
 which git
 ```
 
-The command `which` allows you to locate a command. Running `which`, we will get back the pathname of the executable file of your command. If you get a path, that means your have it. If you don’t have you will need to install it.
+`which` allows you to locate a command. When running `which`, we get back the pathname of the executable file of your command. If you get a path, that means your have it. If you don’t have you will need to install it.
 
 
 # Installing git
 
 ## macOS
 
-There are also a few ways to install Git on macOS
-- A macOS Git installer is maintained and available for download at the Git website, at https://git-scm.com/download/mac.
-- You can also install it as part of the GitHub for macOS install. Their GUI Git tool has an option to install command line tools as well. You can download that tool from the GitHub for macOS website, at https://desktop.github.com.
+There are also a few ways to install Git on macOS:
+- A macOS `git` installer is maintained and available for download at the `git` website, at https://git-scm.com/download/mac.
+- You can also install it as part of the GitHub for macOS install. Their  graphical user interface (GUI) `git` tool has an option to install command line tools as well. You can download that tool from the GitHub for macOS website, at https://desktop.github.com.
 
 
 ## Linux 
@@ -75,8 +75,8 @@ sudo apt-get install git-all
 ## Windows 
 
 There are also a couple of ways to install Git on Windows:
-- The most official build is available for download on the Git website. Some of you already download it on [Week_00](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00#using-git-for-windows). Just go to https://git-scm.com/download/win and the download will start automatically.
-- Another easy way to get Git installed is by installing GitHub Desktop. The installer includes a command line version of `git` as well as the graphical user interface (GUI). You can download this from the [GitHub Desktop website](https://desktop.github.com/).
+- The most official build is available for download on the Git website. Some of you already download it on [week_00](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00#using-git-for-windows).
+- Another easy way to get Git installed is by installing GitHub Desktop. The installer includes a command line version of `git` as well as the GUI. You can download this from the [GitHub Desktop website](https://desktop.github.com/).
 
 
 ## Verify that your git installation was successful
@@ -96,7 +96,8 @@ git config --global user.email "your@email.here"
 
 **NOTES**
 
-- All the commands and processes that we are going to explain will work with any of the services that you decide to use. The commands are a way of communication with the repository (`git`) independently of where they are hosted (stored).
+- All the commands and processes that we are going to explain will work with any of the services that you decide to use. 
+- The commands are a way of communication with the repository (`git`) independently of where they are hosted (stored).
 - You do not need necessarily to create an account in any of the web services described above. You can keep track of your code locally (requires more work, since you are going to be the one managing it and maintaining it) but you can use any of the services to modify the project's code:
   - if you want your work to be publicly accessible (like your research)
   - if you want to work with a team (collaborators) 
@@ -105,7 +106,7 @@ git config --global user.email "your@email.here"
 
 Go to https://github.com/ and sign up / create account / register.
 
-***NOTE: For Github Education (later) go [here](https://education.github.com/discount_requests/new)***
+***NOTE:*** For Github Education (later) go [here](https://education.github.com/discount_requests/new)
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
@@ -126,9 +127,9 @@ for file in *.fas; do
 done
 ```
 
-If you have erased the file create a new one (Hint: `nano seqcounter.sh` )
+If you have erased the file create a new one (Hint: `nano seqcounter.sh`).
 
-Now we are going to create a new folder with our script and sequence files to be synchronized with Github. Once the folder is created we can move our script inside, and change our location to be inside the folder
+Now we are going to create a new folder with our script and sequence files to be synchronized with Github. Once the folder is created we can move our script inside, and change our location to be inside the folder:
 
 ```
 mkdir test_repo
@@ -149,9 +150,9 @@ We can use our script to get the number of sequences in these FASTA files. Make 
 ./seqcounter.sh
 ```
 
-Now that we have this working, we might want to do this in the future. We might also want to add more commands, and be able to track changes as we go. So we are going to make a repository out of this directory. We need to add some information about the script that we have so future us and others can understand it.
+Now that we have this working, we might want to do this in the future. We might also want to add more commands, and be able to track changes as we go. So we are going to make a repository out of this directory. We need to add some information about the script that we have so others (and the future us) can understand it. 
 
-**The `README.md` (markdown) file**. Repositories should go accompanied with a manual user file so others can understand how to use your code. The `README.md` is nicely interpreted by the web interface and is shown directly to the reader, all lessons for this class are written as markdown. A manual on formatting this file can be found [here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+To do that we create a **`README.md` file**. This file will work as a manual and will give all the needed information about the respository and all repositories should have one. The `README.md` is a text file with markdown formatting. This kind of files are nicely interpreted by the web interface and they are shown directly to the reader. All lessons for this class are written as markdown. A manual on formatting this file can be found [here](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 
 Let's create a `README.md` file:
@@ -169,12 +170,11 @@ Insert the following text and save the file in `nano`:
 
 The script `seqcounter.sh` is bash script to be executed in Linux.
 
-After cloning the repository please make sure the file is executable using `chmod +x seqcounter.sh` if necessary
+After cloning the repository please make sure the file is executable using `chmod +x seqcounter.sh` if necessary.
 
 The script `seqcounter.sh` looks for FASTA files in the directory where it is executed and prints the name of the file and number of sequences.
 
 ```
-
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
@@ -182,11 +182,9 @@ The script `seqcounter.sh` looks for FASTA files in the directory where it is ex
 
 Now that we have our code and its corresponding documentation, we are now ready to create our repository. 
 
-
 > Change your flag to yellow![](img/yellow.jpeg)
 
-
-Let’s start by going to the [GitHub web page]().
+Let’s start by going to the [GitHub web page](https://github.com/).
 
 1. Sign in (if we are not already)
 
@@ -196,25 +194,25 @@ Let’s start by going to the [GitHub web page]().
 
 3. Select New repository
 
-![](img/git_05.png)
+4. Fill out the form. Keep in mind, that the name of the repository is going to be part of the URL that’s going to give access to your repository. So, try to make it descriptive (`seqcounter` can be an option here).
 
-4. Fill out the form. Keep in mind, that the name of the repository is going to be part of the URL that’s going to give access to your repository. So, try to make it descriptive. (seqcounter can be an option here)
+![](img/git_05.png)
 
 ## Linking repositories
 
-Now that your repository has been created we need to link your local folder with github. In your terminal type:
+Now that your repository has been created we need to link your local folder with GitHub. In your terminal type:
 
 ```
 git remote add origin https://github.com/YOURUSERNAME/seqcounter.git
 ```
 
-Now we can verify that it worked
+Now we can verify that it worked:
 
 ```
 git remote -v
 ```
 
-Now that we have linked our local files with the repository we can synchronize our files.  But first, let’s try to understand how to work with git. 
+Now that we have linked our local files with the repository we can synchronize our files.  But first, let’s try to understand how to work with `git`. 
 
 **Staging, commit, and you**. One of the most confusing parts when first learning `git` is the concept of staging environment and how it relates to a *commit*. A ***commit*** is a record of what files we have changed since the last time we made a commit. Essentially, we make changes to the repo (for example, adding a file or modifying one) and then tell `git` to put those files into a ***commit***. Commits make up the essence of our project and allow us to go back to the state of a project at any point.
 
@@ -226,7 +224,7 @@ To add a file to a commit, you first need to add it to the staging environment. 
 git add *
 ```
 
-Now that we’ve added all the files we want to the staging environment, then we can commit all changes adding also a comment of what we did with the option `-m`. If we decide not to add any comment in the same line, `git` will either complain or it will automatically open an editor (i.e. `vim`, `nano`) and allow us to add a comment. It won’t accept being left empty.
+We’ve added all the files we want to the staging environment, then we can commit all changes adding also a comment of what we did with the option `-m`. If we decide not to add any comment in the same line, `git` will either complain or it will automatically open an editor (i.e. `vim`, `nano`) and allow us to add a comment. It won’t accept being left empty.
 
 ```
 git commit -m “initial push”
