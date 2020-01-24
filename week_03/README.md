@@ -254,7 +254,8 @@ echo done
 This line will print `done` once the code had run (a nice touch that helps for debugging), but now our local files are out to date, we can check this with:
 
 ```
-git status
+git remote update
+git status -uno
 ```
 
 now  we can pull the changes into our local files:
