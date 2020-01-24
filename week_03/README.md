@@ -144,6 +144,12 @@ wget https://raw.githubusercontent.com/merlyescalona/ucsc-eeb-intro2comptools/ma
 wget https://raw.githubusercontent.com/merlyescalona/ucsc-eeb-intro2comptools/master/week_02/data/genes_2.fas
 ```
 
+If you don't have `wget` you can download the files from the following links
+
+https://www.dropbox.com/s/wbc0t1it7jmd3s9/genes_1.fas?dl=0
+
+https://www.dropbox.com/s/yxjfg8otu1dr8ux/genes_2.fas?dl=0
+
 We can use our script to get the number of sequences in these FASTA files. Make sure you can execute (run) your script (Hint: `ls -lh` and `chmod +x seqcounter.sh`).
 
 ```
