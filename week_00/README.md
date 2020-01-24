@@ -43,7 +43,8 @@ For more advanced users:
 
 ### Using Git for Windows
 
-Download Git for Windows [here](https://git-scm.com/download/win)
+Download Git for Windows [here](https://git-scm.com/download/win).  Note that this is a project which is separate from Git itself; for more information on it, go to https://gitforwindows.org. 
+
 
 Install Git for Windows:
 
