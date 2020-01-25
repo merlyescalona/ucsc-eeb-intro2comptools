@@ -206,12 +206,21 @@ Let’s start by going to the [GitHub web page](https://github.com/).
 
 Now that your repository has been created on the GitHub server, we need to link your local folder with GitHub. First, we need set up our folder as a repository and then link it. In your terminal type:
 
+First thing, we need to initialize `git`. This is a one-time command per project. 
+
 ```
-git init # This is a one-time command
+git init
+```
+
+Now link your local files with github. Make sure you replace add your personal username. 
+
+```
 git remote add origin https://github.com/YOURUSERNAME/seqcounter.git
 ```
 
 Now we can verify that it worked:
+
+> It is common to introduce typos or mistakes when liking your local files with github. If this was the case you can unlink using `git remote rm origin` and then link again.
 
 ```
 git remote -v
