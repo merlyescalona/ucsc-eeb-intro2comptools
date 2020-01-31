@@ -48,7 +48,9 @@ The access information you will need for any `ssh` client:
 
 > Set your flag to yellow ![](img/yellow.jpeg)
 
-You can connet to *hummingbird* using the following command (:warning: Change the `<cruzid>` with your own) :
+You can connet to *hummingbird* using the following command 
+
+:warning: Change the `<cruzid>` with your own :warning:
 
 ```
 ssh <cruzid>@hb.ucsc.edu
@@ -138,11 +140,13 @@ Moving files to your *hummingbird* account requires the use of  a secure file tr
 - Use a GUI Client, and one of the best applications for this is [Filezilla](https://filezilla-project.org/) it is available for MacOS, Windows and Linux. You will only need to remember the [access information](#access). 
 - Or, use the `scp` command to copy files to and from HB from your computer’s terminal application, this command is similar to `cp` but it is used for copying files between computers. 
     
-The basic usage of `scp` is `scp origin destination `scp origin destination`; where origin and destination are PATHS of your computer or of the server.
+We are going to use `scp`. The basic usage of `scp` is `scp origin destination`; where origin and destination are `PATHS` of your computer or of the server.
 
 If we are referring to a file from our computer we would have something like this: `/home/user/myfile.txt`. If we are referring to a file on a remote server, we need a little bit more information to be able to identify the file we want or the folder where we want to copy our local file to: `USER@hb.ucsc.edu:/hb/home/myfile.txt`. **Remember** that *hummingbird* will ask for your BLUE password.
 
-Let's transfer our `test_repo` folder to the cluster (:warning: Change the `<cruzid>` with your own):
+Let's transfer our `test_repo` folder to the cluster:
+
+:warning: Change the `<cruzid>` with your own :warning:
 
 ```
 scp -r test_repo/ <cruzid>@hb.ucsc.edu:/hb/home/<cruzid>
@@ -175,7 +179,9 @@ Let’s create a file:
 nano job.mpi
 ```
 
-Copy and paste the following text, but make sure to make the necessary changes  :warning: :
+Copy and paste the following text:  
+
+:warning: make the necessary changes (`<cruzid>`) :warning:
 
 ```
 #!/bin/bash
@@ -273,6 +279,6 @@ In *humminbird*, there are 3 different areas of storage, with their specificatio
 
 ### Partitions and constraints
 
-Cluster nodes are grouped into partitions, and various scheduling parameters are associated with those partitions. You can control what partition, and how many nodes/tasks are selected, but not how resources are scheduled. You have control over CPU resources (high level) and memory usage. The designation of some of these features in our command files are optional. Therefore, it is highly advised to optimize cluster use.***Always try to adjust as much as you can the available resources to the real requirements of your job.*** 
+Cluster nodes are grouped into partitions, and various scheduling parameters are associated with those partitions. You can control what partition, and how many nodes/tasks are selected, but not how resources are scheduled. You have control over CPU resources (high level) and memory usage. The designation of some of these features in our command files are optional. Therefore, it is highly advised to optimize cluster use. ***Always try to adjust the available resources,  as much as you can,  to the real requirements of your job.*** 
 
 To know the particularities of each partition and the corresponding constraints, please check Section "HB Partitions and HB SLURM constraints" [here](https://www.hb.ucsc.edu/getting-started/).
