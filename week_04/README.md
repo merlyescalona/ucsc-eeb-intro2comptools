@@ -247,6 +247,7 @@ If you have loaded some modules, you can see which modules are loaded by using:
 ```
 module list
 ```
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 ### Storage
 
@@ -271,15 +272,13 @@ To know the particularities of each partition and the corresponding constraints,
 
 3. Ask for help if need it :). If you are stuck or don't know how something works ask someone who has run a similar analysis, alternatively ask hummingbird staff, they are always willing to help.
 
-### Exercise 1
+## Exercises
 
-How would you copy the `results.txt` file to your local computer?
+> Change your flag to yellow ![](img/yellow.jpeg)
 
-> Change your flag to green if you are good to continue ![](img/green.jpeg)
+- How would you copy the `results.txt` file to your local computer?
 
-### Exercise 2
-
-Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq.gz` files provided in the following link:
+- Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq.gz` files provided in the following link:
 
 https://www.dropbox.com/sh/xykducoziqn27wo/AAAUym4glo9MaVlJuYG9cjnua?dl=0
 
