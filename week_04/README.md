@@ -223,12 +223,6 @@ squeue -u ovargash
 
 Congratulations :tada:! You have run a job in *hummingbird*!
 
-### Exercise 1
-
-How would you copy the `results.txt` file to your local computer?
-
-> Change your flag to green if you are good to continue ![](img/green.jpeg)
-
 ## Things to keep in mind:
 
 > Change your flag to yellow ![](img/yellow.jpeg)
@@ -254,15 +248,6 @@ If you have loaded some modules, you can see which modules are loaded by using:
 module list
 ```
 
-### Exercise 2
-
-Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq.gz` files provided in the following link:
-
-https://www.dropbox.com/sh/xykducoziqn27wo/AAAUym4glo9MaVlJuYG9cjnua?dl=0
-
-
-> Change your flag to green if you are good to continue ![](img/green.jpeg)
-
 ### Storage
 
 In *humminbird*, there are 3 different areas of storage, with their specifications.
@@ -285,3 +270,18 @@ To know the particularities of each partition and the corresponding constraints,
 2. `home` has limited storage while `scratch` does not. You might want to run all analysis in `scratch`, but be awared that `scratch` is routinely flushed.
 
 3. Ask for help if need it :). If you are stuck or don't know how something works ask someone who has run a similar analysis, alternatively ask hummingbird staff, they are always willing to help.
+
+### Exercise 1
+
+How would you copy the `results.txt` file to your local computer?
+
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
+
+### Exercise 2
+
+Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq.gz` files provided in the following link:
+
+https://www.dropbox.com/sh/xykducoziqn27wo/AAAUym4glo9MaVlJuYG9cjnua?dl=0
+
+
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
