@@ -42,21 +42,22 @@ If you have access to a UCSC account, then you can connect to *hummingbird* via 
 The access information you will need for any `ssh` client:
 
 - **Host**: `hb.ucsc.edu`
-- **Username**: `CRUZID`
+- **Username**: `<cruzid>`
 - **Password**: BLUE password
 - **Port number (if required)**: `22`
 
 > Set your flag to yellow ![](img/yellow.jpeg)
 
+You can connet to *hummingbird* using the following command (:warning: Change the `<cruzid>` with your own) :
 
 ```
-ssh CRUZID@hb.ucsc.edu
+ssh <cruzid>@hb.ucsc.edu
 ```
 
 Alternatively, you can use:
 
 ```
-ssh -l CRUZID hb.ucsc.edu
+ssh -l <cruzid> hb.ucsc.edu
 ```
 
 The first time you log-in from your computer, the system is going to ask you something like this:
@@ -73,7 +74,7 @@ yes
  
 Once connected, you will see something like this: 
 
-![SSH to Hummingbird](img/clusters_01.png)
+![SSH to Hummingbird](img/ssh_01.png)
 
 **Connecting to *hummingbird* off-campus**: If you are off campus, you will be required to use Campus VPN to connect to *hummingbird*.  There is no need to request an account for the Campus VPN. To install the VPN client to your machine, all you need to do is follow the [VPN Installation Instructions](https://its.ucsc.edu/vpn/installation.html).
 
@@ -135,12 +136,16 @@ cd ..
 Moving files to your *hummingbird* account requires the use of  a secure file transfer program. To do this you can:
 
 - Use a GUI Client, and one of the best applications for this is [Filezilla](https://filezilla-project.org/) it is available for MacOS, Windows and Linux. You will only need to remember the [access information](#access). 
-- Or, use the `scp` command to copy files to and from HB from your computer’s terminal application, this command is similar to `cp` but it is used for copying files between computers
-    - The basic usage of `scp` is `scp origin destination `scp origin destination`; where origin and destination are PATHS of your computer or of the server.
-    - If we are referring to a file from our computer we would have something like this: `/home/user/myfile.txt`. If we are referring to a file on a remote server, we need a little bit more information to be able to identify the file we want or the folder where we want to copy our local file to: `USER@hb.ucsc.edu:/hb/home/myfile.txt`. **Remember** that *hummingbird* will ask for your BLUE password.
+- Or, use the `scp` command to copy files to and from HB from your computer’s terminal application, this command is similar to `cp` but it is used for copying files between computers. 
+    
+The basic usage of `scp` is `scp origin destination `scp origin destination`; where origin and destination are PATHS of your computer or of the server.
+
+If we are referring to a file from our computer we would have something like this: `/home/user/myfile.txt`. If we are referring to a file on a remote server, we need a little bit more information to be able to identify the file we want or the folder where we want to copy our local file to: `USER@hb.ucsc.edu:/hb/home/myfile.txt`. **Remember** that *hummingbird* will ask for your BLUE password.
+
+Let's transfer our `test_repo` folder to the cluster (:warning: Change the `<cruzid>` with your own):
 
 ```
-scp -r test_repo/ ovargash@hb.ucsc.edu:/hb/home/ovargash
+scp -r test_repo/ <cruzid>@hb.ucsc.edu:/hb/home/<cruzid>
 ```
  
 We need to test that the upload worked. Go to your terminal window connected with *hummingbird*:
