@@ -122,7 +122,7 @@ echo done
 ```
 
 If you erased the files, don’t worry. We gotcha, just download the folder from here:
-https://www.dropbox.com/sh/1p07a2qr413n0c5/AABmLPdYsdnbVfen74cYKTUma?dl=0
+https://www.dropbox.com/sh/xykducoziqn27wo/AAAUym4glo9MaVlJuYG9cjnua?dl=0
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
@@ -256,15 +256,25 @@ module list
 
 ### Exercise 2
 
-Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq` files provided in the following link:
+Knowing that you can analyze raw sequencing data (FASTQ files) with the command `fastqc -o fastqc_out *.fastq*`, create a SLURM file to analyze the `.fastq.gz` files provided in the following link:
 
-![ADD LINK HERE]()
+https://www.dropbox.com/sh/xykducoziqn27wo/AAAUym4glo9MaVlJuYG9cjnua?dl=0
 
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 
-## Other considerations
+## Other very important considerations
+
+1. There is drag-and-drop softawre you can use to transfer files (see hummingbird link at the end of page).
+
+2. Hummingbrid is not mean to be a place to store your files. Download your results and have a local copy of everything.
+
+3. `home` has limited storage while `scratch` does not. You might want to run all analysis in `scratch`, but be awared that `scratch` is routinely flushed.
+
+4. If a software you want to use is not there, you can ask hummingbird staff to install it for you. You can potentially install programs in your home too.
+
+5. Ask for help if need it :). If you are stuck or don't know how something works ask someone who has run a similar analysis, alternatively ask hummingbird staff, they are always willing to help.
 
 ### Storage
 
