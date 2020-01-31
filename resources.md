@@ -14,3 +14,11 @@
     - [git documentation](https://git-scm.com/docs)
     - Atlassian -  [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/what-is-version-control)
     - Tower - [Learning Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/what-is-version-control#start)
+- Clusters
+    - Lecture on clusters open access [here](https://docs.google.com/presentation/d/1bcZKEh-nEq-ELVBMY9NYy4a0Ue5glAk0y17CywY9K1w/edit#slide=id.p)
+    - Software carpentry: [Introduction to high=performance computing](https://hpc-carpentry.github.io/hpc-intro/)
+
+- Applied computational genomics lecture by Aaron Quinlan (Univ. Utah)
+    - GitHub: https://github.com/quinlan-lab/applied-computational-genomics
+- Hummingbird resources:
+    - Tutorials and documentation available on the [Hummingbird's website](https://www.hb.ucsc.edu/documentation/)
