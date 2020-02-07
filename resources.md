@@ -22,3 +22,12 @@
     - GitHub: https://github.com/quinlan-lab/applied-computational-genomics
 - Hummingbird resources:
     - Tutorials and documentation available on the [Hummingbird's website](https://www.hb.ucsc.edu/documentation/)
+- Python: 
+    - List of Python tutorials and resources from [Python.org](https://wiki.python.org/moin/BeginnersGuide/Programmers)
+    - [Google for Education > Python](https://developers.google.com/edu/python/)
+    - [Software carpentry: Python fundamentals](http://swcarpentry.github.io/python-novice-inflammation/01-intro/index.html)
+    - Automate the Boring Stuff with Python - Practical Programming for Total Beginners by Al Sweigart [BOOK](https://automatetheboringstuff.com/)
+
+- [Introduction to genomic analyses](https://github.com/Phillip-a-richmond/Introduction-to-Genomic-Analysis): This course is intended for Canadian researchers interested in learning the basic steps of genomic analysis using high performance computing. Using the computing resources of Compute Canada, specifically the WestGrid region, participants will work through practical exercises in the workshop sessions and receive a certificate of completion at the end of the series.
+
+
