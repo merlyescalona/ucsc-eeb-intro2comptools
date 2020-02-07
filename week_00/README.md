@@ -195,11 +195,17 @@ And so wi will press <kbd>Return</kbd>, the windows will close and we will have 
 Download the Python interpreter for Windows [here](https://www.python.org/downloads/windows/).
 
 - Select "Install now", this would install everything by default (will ask you for Administrator's permission).
-![Launcher](python_00.png)
+
+![Launcher](img/python_00.png)
+
 - It will start installing.
-![loading](python_01.png)
-- Finally, it will tell you it's done. If it shows you an option to "Disable path length limit", click in it (will ask you for Administrator's permission). 
-![Setup was succesful](python_02.png)
+
+![loading](img/python_01.png)
+
+- Finally, it will tell you it's done. If it shows you an option to "Disable path length limit", click in it (will 
+ask you for Administrator's permission). 
+
+![Setup was succesful](img/python_02.png)
 
 
 To open the Python interpreter, we can do:
@@ -208,4 +214,5 @@ To open the Python interpreter, we can do:
 - Going to the Start Menu > Git > Git BASH
 
 The interpreter will look like this: 
-![Python interpreter](python_03.png)
+
+![Python interpreter](img/python_03.png)
