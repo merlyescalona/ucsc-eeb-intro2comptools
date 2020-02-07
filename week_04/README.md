@@ -190,7 +190,7 @@ Copy and paste the following text:
 #SBATCH -J test		# Job name
 #SBATCH --mail-user=<cruzid>@ucsc.edu
 #SBATCH --mail-type=ALL
-#SBATCH -o job%.j.out	# Name of stdout output file
+#SBATCH -o job.%j.out	# Name of stdout output file
 #SBATCH -N 1		# Total number of nodes requested (128x24/Instructional only)
 #SBATCH -n 1		# Total number of mpi tasks requested per node
 #SBATCH -t 0:10:00  # Run Time (hh:mm:ss) - 1.5 hours (optional)
