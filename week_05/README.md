@@ -211,16 +211,6 @@ print(nuc_amb)
 ```
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
-## Dictionaries
-
-> Change your flag to yellow ![](img/yellow.jpeg)
-
-
-Dictionaries are great to store paired data, they are defined with curly brackets:
-
-```
-nuc_names= {'adenine':'a','guanine':'g','cytosine':'c','thymine':'t'}
-```
 
 ### Other operators
 
