@@ -25,14 +25,23 @@ To pass the course students formally enrrolled are expected to attend at least 7
 ## Weekly program (subject to change):
 
 W-1 [Setting resources necessary](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_00), introduction to bash, navigating your computer using bash
+
 W-2 Text editors, basic bash scripts, bash loops
+
 W-3 Introduction to version control, GitHub, Bitbucket
+
 W-4 Connecting to hummingbird, copying data, and submitting jobs
+
 W-5 Introduction to python, main elements in python, conditionals. 
+
 W-6 Project pitching. Python dictionaries and loops, reading and creating files
+
 W-7 Manipulating data frames in python, pandas
+
 W-8 Biopython
+
 W-9 Complex scripts in python, processing multiple files using loops. General tips for coding
+
 W-10 Students’ project presentations
 
 # Instructors:
