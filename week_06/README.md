@@ -12,6 +12,12 @@ nuc_names= {'a':'adenine','g':'guanine','c':'cytosine','t':'thymine'}
 
 In our dictionary the single letters `a g c t` are the keys, while the names `adenine guanine cytosine thymine` are the values
 
+We can access a specific value by:
+
+```
+nuc_names['a']
+```
+
 Here is an example about how using dictionaries can make our life easier. We want to replace our list with another list with its names.
 
 ```
