@@ -46,7 +46,7 @@ W-10 Students’ project presentations
 
 ## Project requirements
 
-- Work individually or with one class-mate.
+- Work individually or with one classmate.
 - Write a python script that solves a problem within your research. Alternatively you can write a python script about a game or something you are passionated about.
 - Upload the code to github and write a readme.md file.
 - Prepare for a small demostration of the code in the final class.
