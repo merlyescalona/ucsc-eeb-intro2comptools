@@ -44,6 +44,13 @@ W-9 Complex scripts in Python, processing multiple files using loops. General ti
 
 W-10 Students’ project presentations
 
+## Project requirements
+
+- Work individually or with one class-mate.
+- Write a python script that solves a problem within your research. Alternatively you can write a python script about a game or something you are passionated about.
+- Upload the code to github and write a readme.md file.
+- Prepare for a small demostration of the code in the final class.
+
 # Instructors:
 
 Merly Escalona (<mmescalo@ucsc.edu>): Postdoctoral Scholar in the [Paleogenomics lab](https://pgl.soe.ucsc.edu), experience with bioinformatics, simulation of genomic and high throughput sequencing data, and genome assembly.
