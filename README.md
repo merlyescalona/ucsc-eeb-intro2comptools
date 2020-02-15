@@ -34,13 +34,13 @@ To pass the course students formally enrrolled are expected to attend at least 7
 
 [W-5](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_05) Introduction to Python, main elements in python, conditionals. 
 
-[W-6](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_06) Project pitching. Complex data types, loops, I/O, scripts and more...
+[W-6](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_06) Project pitching. Complex data types, loops...
 
-W-7 Manipulating data frames in Python, pandas
+W-7 Complex scripts in Python, processing multiple files using loops.
 
-W-8 Biopython
+W-8 Manipulating data frames in Python, pandas
 
-W-9 Complex scripts in Python, processing multiple files using loops. General tips for coding
+W-9 Biopython
 
 W-10 Students’ project presentations
 
