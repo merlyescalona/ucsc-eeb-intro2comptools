@@ -12,6 +12,12 @@ nuc_names= {'a':'adenine','g':'guanine','c':'cytosine','t':'thymine'}
 
 In our dictionary the single letters `a g c t` are the keys, while the names `adenine guanine cytosine thymine` are the values
 
+We can access a specific value by:
+
+```
+nuc_names['a']
+```
+
 Here is an example about how using dictionaries can make our life easier. We want to replace our list with another list with its names.
 
 ```
@@ -126,6 +132,13 @@ Great!
 > Change your flag to yellow ![](img/yellow.jpeg)
 
 ***while*** loops, like the ***For*** Loop, are used for repeating sections of code - but unlike a ***for*** loop, the while loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all.
+
+The format of the ***while*** loop is like this:
+
+```
+while CONDITION:
+	BLOCK
+```
 
 This is an example when the condition is satisfied:
 
