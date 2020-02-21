@@ -45,6 +45,7 @@ python3 hello.py
 Now,  that we know how to run scripts, let's use all of the content that we have used today to learn how to write and read files by running scripts.
 
 Create a new script with the name  `testwrite.py` and add the following code:
+(you can do this in a text editor)
 
 ```python {.line-numbers}
 #!/usr/bin/env python3
