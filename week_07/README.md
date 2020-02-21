@@ -7,8 +7,9 @@
 So far we have been playing around with the interpreter, but we don't want to run long runs of code in the interpreter all the time. Also, with the interactive interpreter session will allow you to write a lot of lines of code, but once you close the session, you lose everything you’ve written. It's tedious and does not make a lot of sense specially if you need to run things several times. To solve this we are going to generate scripts. The usual way of writing Python scripts is by using plain text files. By convention, those files will use the `.py` extension. So, let's start by creating a folder for this week and write our script.
 
 ```
-mkdir week_06
-cd week_06
+cd Documents
+mkdir week_07
+cd week_07
 nano hello.py
 ```
 
