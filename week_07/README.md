@@ -142,7 +142,7 @@ python3 testread.py
 
 Now that we have all the tools necessary to write our own scripts is time to put our knowledge to practice. 
 
-Write a python script `seq_counter.py` that will read the file `genes_1.fas` and will report the number of sequences
+Write a python script `seq_counter.py` that will read the file `genes_1.fas` and will report the number of sequences in an output file.
 
 Data files can be found here:
 https://www.dropbox.com/sh/t0khu2icdoc09cw/AAAfanTV4IPrhMAfgkNFjurla?dl=0
