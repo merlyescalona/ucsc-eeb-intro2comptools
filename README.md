@@ -36,11 +36,11 @@ To pass the course students formally enrrolled are expected to attend at least 7
 
 [W-6](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_06) Project pitching. Complex data types, loops...
 
-W-7 Complex scripts in Python, processing multiple files using loops.
+[W-7](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_07) Complex scripts in Python, processing files using loops.
 
-W-8 Manipulating data frames in Python, pandas
+W-8 Biopython
 
-W-9 Biopython
+W-9 Manipulating data frames in Python, pandas, general coding recomandations
 
 W-10 Students’ project presentations
 
