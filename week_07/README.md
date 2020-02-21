@@ -127,7 +127,7 @@ for number in f.readlines():
 f.close()
 ```
 
-Now, let's get over the script. We open the file with the function `open(filename, mode)`, this time with `mode=r` because we want to read the file.  Then we can get the content of a single line of the file with the function `f.readline()`. Then we can get all the lines of a file with the function `f.readlines()`. This function will return a list of strings, where each string is a line of the file. We now iterate over that list, like we did with the `nuc` variable before, and print the content of each element of the list. Since we had to add that `\n` (new line character) the output will be a little weird, so we will get that value to be considered as an integer with the function `int()` and we will have a nice list of numbers. Check the result by runnning the script with:
+Now, let's get over the script. We open the file with the function `open(filename, mode)`, this time with `mode=r` because we want to read the file.  Then we can get the content of a single line of the file with the function `f.readline()`. Then we can get all the lines of a file with the function `f.readlines()`. This function will return a list of strings, where each string is a line of the file. We now iterate over that list, like we did with the `nuc` variable before, and print the content of each element of the list. Since we had to add that `\n` (new line character) the output will be a little weird, so we will get that value to be considered as an integer with the function `int()` and we will have a nice list of numbers. Check the result by running the script with:
 
 ```
 python3 testread.py
