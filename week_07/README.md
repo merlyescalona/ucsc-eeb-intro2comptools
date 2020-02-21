@@ -151,6 +151,8 @@ https://www.dropbox.com/sh/t0khu2icdoc09cw/AAAfanTV4IPrhMAfgkNFjurla?dl=0
 
 ## Python packages
 
+> Change your flag to yellow ![](img/yellow.jpeg)
+
 Python has a wide array of packages that are very useful for coding. Installing those can be a difficult but fortunately there are software managers that make this task very easy. Brew is one of these package managers for Mac.
 
 In bash. Install brew first:
