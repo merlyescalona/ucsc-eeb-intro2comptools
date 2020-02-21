@@ -135,3 +135,13 @@ python3 testread.py
 ```
  
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
+
+
+## Exercise 1
+
+Now that we have all the tools necessary to write our own scripts is time to put our knowledge to practice. 
+
+Write a python script that will read the file genes_1.fas and will report the number of sequences
+
+
+
