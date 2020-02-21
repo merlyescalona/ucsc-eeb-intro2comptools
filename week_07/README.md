@@ -136,12 +136,54 @@ python3 testread.py
  
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
-
 ## Exercise 1
+
+> Change your flag to yellow ![](img/yellow.jpeg)
 
 Now that we have all the tools necessary to write our own scripts is time to put our knowledge to practice. 
 
-Write a python script that will read the file genes_1.fas and will report the number of sequences
+Write a python script `seq_counter.py` that will read the file `genes_1.fas` and will report the number of sequences
 
+Data files can be found here:
+https://www.dropbox.com/sh/t0khu2icdoc09cw/AAAfanTV4IPrhMAfgkNFjurla?dl=0
 
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
 
+## Python packages
+
+Python has a wide array of packages that are very useful for coding. Installing those can be a difficult but fortunately there are software managers that make this task very easy. Brew is one of these package managers for Mac.
+
+In bash. Install brew first:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Here is the documentation for brew:
+https://brew.sh
+
+Now we need to install python3 with brew:
+
+```
+brew install python
+```
+
+Now we need to install pip:
+
+```
+brew install pip
+```
+
+Finally we can installing python packages:
+
+```
+pip3 install pandas
+```
+
+We will also need biopython:
+
+```
+pip3 install biopython
+```
+
+> Change your flag to green if you are good to continue ![](img/green.jpeg)
