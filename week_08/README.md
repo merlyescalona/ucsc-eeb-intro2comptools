@@ -6,7 +6,7 @@
 
 We have learned how to use scripts for relatively small tasks. As the  script gets longer, you may want to split it into several files for easier maintenance. Also, you may want to use a handy function that you’ve written in several programs without copying its definition into each program, or you want to use someone else's function.
 
-To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a ***module***; definitions from a ***module*** can be ***imported*** into other modules or into the main module. 
+To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the **interpreter**. Such a file is called a ***module***; definitions from a ***module*** can be ***imported*** into other modules or into the main module. 
 
 For example, let's imagine we want to store the functionality we have been using to count sequences of a FASTA file as a module. First,  let's create a directory for the current week.
 
@@ -68,7 +68,9 @@ Now:
 
 > Change your flag to yellow ![](img/yellow.jpeg)
 
-***Packages** are a way of structuring Python's modules. We use the "dotted module names" convention to access the modules of a package. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. This is useful because some packages might have the same variable or function names and do different things. We will see further along how they work. 
+**Packages** are a way of structuring Python's modules. We use the "dotted module names" convention to access the modules of a package. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. This is useful because some packages might have the same variable or function names and do different things. We will see further along how they work. 
+
+### Installing packages 
 
 Python has a wide array of packages that are very useful for coding. Installing them can be a difficult but fortunately there are software/package managers that make this task very easy. `brew` is one of these package managers for macOS.
 
