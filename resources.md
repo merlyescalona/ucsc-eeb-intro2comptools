@@ -30,4 +30,11 @@
 
 - [Introduction to genomic analyses](https://github.com/Phillip-a-richmond/Introduction-to-Genomic-Analysis): This course is intended for Canadian researchers interested in learning the basic steps of genomic analysis using high performance computing. Using the computing resources of Compute Canada, specifically the WestGrid region, participants will work through practical exercises in the workshop sessions and receive a certificate of completion at the end of the series.
 
+- [BioPython documentation](https://biopython.org/)
+  - [Biopython wiki page](https://biopython.org/wiki/Category%3AWiki_Documentation)
+  - [Getting started](https://biopython.org/wiki/Getting_Started)
+  - [Biopython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#chapter:Bio.SeqIO)
+  - [Complete tree of Biopython Classes](http://biopython.org/DIST/docs/api/Bio-module.html)
 
+- [Python classes from the `python.org` documentation](https://docs.python.org/3/tutorial/classes.html)
+- [Python classes from `w3schools.com`](https://www.w3schools.com/python/python_classes.asp)
