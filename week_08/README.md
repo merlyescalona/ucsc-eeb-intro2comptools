@@ -270,7 +270,7 @@ adaptor="GGTGGA"
 
 ```
 from Bio import SeqIO
-records=SeqIO.to_dict(records=SeqIO.parse("genes_1.fas", "fasta"))
+records=SeqIO.to_dict(SeqIO.parse("genes_1.fas", "fasta"))
 count=0
 for r in records:
     if adaptor in r:
