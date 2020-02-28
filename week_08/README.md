@@ -58,9 +58,15 @@ seqcount.seq_count_write_file("genes_2.fas","num_seqs_genes2.txt" )
 ```
 
 Now:
-- Line 1 will define how to call a module, in our cas this is a local module (we created it), but it works for all the ones we are going to download.
+- Line 1 will define how to call a module, in our case this is a local module (we created it), but it works for all the ones we are going to download.
 - Lines 2 and 3 are calling the function `seq_count` from our module for the 2 different FASTA files. This function will return the number of lines from the specific FASTA file.
-- Lines 4 and 5 are calling the function `seq_count_write_file` from our module for the 2 different FASTA files. Different to the previous function, this one will write the count into a file.
+- Lines 4 and 5 are calling the function `seq_count_write_file` from our module for the 2 different FASTA files. Different to the previous function, this one will write the count into a file. Let's check the content of these files in our directory:
+
+```
+ls
+cat num_seqs_genes1.txt
+cat num_seqs_genes2.txt 
+```
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
@@ -160,6 +166,15 @@ my_seq.complement()
 my_seq.reverse_complement()
 ```
 
+
+Also, sometimes you might have to convert your sequence into strings. The `Seq` object predicts that if a user writes `print(my_seq)` they will want to print the sequence string not the entire `Seq` object. Likewise, the `Seq` object predicts that if a user writes `len(my_seq)` they will want to calculate the length of the sequence not the length of the entire `Seq` object.
+
+```python
+my_seq
+print(my_seq)
+len(my_seq)
+```
+
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
 
 
@@ -243,3 +258,22 @@ records=SeqIO.to_dict(SeqIO.parse("genes_1.fas", "fasta"))
 type(records)
 counter2=len(records)
 ```
+
+Excercise:
+
+We can even find an specific MOTIF in our sequences, let's say we want to find the following adaptor in our sequences:
+
+```
+adaptor="GGTGGA"
+```
+
+
+```
+from Bio import SeqIO
+records=SeqIO.to_dict(records=SeqIO.parse("genes_1.fas", "fasta"))
+count=0
+for r in records:
+    if adaptor in r:
+        count+=1
+```
+    
