@@ -38,7 +38,7 @@ To pass the course students formally enrrolled are expected to attend at least 7
 
 [W-7](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_07) Complex scripts in Python, processing files using loops. Installing brew and python packages.
 
-W-8 Biopython
+[W-8](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_08) Biopython
 
 W-9 Manipulating data frames in Python, pandas, general coding recomandations
 
