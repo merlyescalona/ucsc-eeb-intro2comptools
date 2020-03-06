@@ -40,7 +40,7 @@ To pass the course students formally enrrolled are expected to attend at least 7
 
 [W-8](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_08) Biopython
 
-W-9 Manipulating data frames in Python, pandas, general coding recomandations
+[W-9](https://github.com/merlyescalona/ucsc-eeb-intro2comptools/tree/master/week_09) Manipulating data frames in Python, pandas, general coding recomendations
 
 W-10 Students’ project presentations
 
