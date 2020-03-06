@@ -94,14 +94,16 @@ df_g2
 If we want to identify the ten longest sequences, first we need to sort the dataframe:
 
 ```
- df_g2 = df_g2.sort_values(by="length", ascending=False)
- df_g2
+df_g2 = df_g2.sort_values(by="length", ascending=False)
+df_g2
 ```
 You will see that now our dataframe is sorted. Now we need to subselect the top 10 longest sequences:
 
 ```
 df_g2_top = df_g2.head(n=10)
 df_g2_top
+
+df_g2_top.to_csv(path_or_buf="top_ten_gene2.csv")
 ```
 
 > Change your flag to green if you are good to continue ![](img/green.jpeg)
