@@ -34,9 +34,9 @@ Execute the file:
 ```
 python3 seq_counter.py
 ```
-You will that so far we have been able to store all the filenames that end with `*.fas` in a list.
+You will see that so far we have been able to store all the filenames that end with `*.fas` in a list.
 
-Now we are going to create a dataframe with the information we want to record. Using pandas. Append the following text at the end of your file:
+Now we are going to create a dataframe with the information we want to record using pandas. Append the following text at the end of your file:
 
 ```
 print("creating dataframe")
@@ -91,13 +91,13 @@ df_g2 = df.loc[df["gene"] == "genes_2"]
 df_g2
 ```
 
-We can identify the 10 longest sequences by:
+If we want to identify the ten longest sequences, first we need to sort the dataframe:
 
 ```
  df_g2 = df_g2.sort_values(by="length", ascending=False)
  df_g2
 ```
-You will see that now our dataframe is ordered. Now we need to subselect the top 10 longest sequences:
+You will see that now our dataframe is sorted. Now we need to subselect the top 10 longest sequences:
 
 ```
 df_g2_top = df_g2.head(n=10)
