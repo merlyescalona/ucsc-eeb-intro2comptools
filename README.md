@@ -57,7 +57,7 @@ W-10 Students’ project presentations
 Merly Escalona (<mmescalo@ucsc.edu>): Postdoctoral Scholar in the [Paleogenomics lab](https://pgl.soe.ucsc.edu), experience with bioinformatics, simulation of genomic and high throughput sequencing data, and genome assembly.
 
 
-[Oscar Vargas](http://oscarmvargas.com/) (<ovargash@ucsc.edu>): Former Postdoctoral Scholar in the [Kay lab](http://kay.eeb.ucsc.edu/), experience with bioinformatics and phylogenomics. Now working at Humboldt State.
+[Oscar Vargas](http://oscarmvargas.com/) (<ov20@humboldt.edu>): Former Postdoctoral Scholar in the [Kay lab](http://kay.eeb.ucsc.edu/), experience with bioinformatics and phylogenomics. Now Assistant Professor at Humboldt State University.
 
 
 
