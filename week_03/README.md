@@ -226,6 +226,13 @@ Now we can verify that it worked:
 git remote -v
 ```
 
+
+***NOTE*** Starting in 2021 the main branch for Github repositories have the name of "main" instead of "master" (master is the default in your computer). If you are creating a new repository in github, then you need to change the name of your local repository using:
+
+```
+git branch -m master main
+```
+
 Now that we have linked our local files with the repository we can synchronize our files.  But first, let’s try to understand how to work with `git`. 
 
 **Staging, commit, and you**. One of the most confusing parts when first learning `git` is the concept of staging environment and how it relates to a *commit*. A ***commit*** is a record of what files we have changed since the last time we made a commit. Essentially, we make changes to the repo (for example, adding a file or modifying one) and then tell `git` to put those files into a ***commit***. Commits make up the essence of our project and allow us to go back to the state of a project at any point.
